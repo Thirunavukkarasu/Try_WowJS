@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="wow">
+<head>
+  <title>WowJS Demo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div ng-include='"partials/header.html"'></div>
+    <div ng-include='"partials/intro.html"'></div>
+    <div ng-include='"partials/portofolio.html"'></div>
+    <div ng-include='"partials/technology.html"'></div>     
+    <div ng-include='"partials/process.html"'></div>
+    <div ng-include='"partials/about.html"'></div>      
+    <div ng-include='"partials/contact.html"'></div>        
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script type="text/javascript">
+  angular.module('wow', []);
+  new WOW().init();
+</script>
+</html>

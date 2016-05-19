@@ -1,0 +1,56 @@
+#intro {
+  padding-top:50px;
+  height:500px;
+  color: #000; 
+  background-color: #f4f4f4;
+}
+#portofolio {
+  padding-top:50px;
+  height:900px;
+  color: #fff; 
+  background-color: #3498db;
+}
+#technology {
+  padding-top:50px;
+  height:500px;
+  color: #fff; 
+  background-color: #1abc9c;
+}
+#process {
+  padding-top:50px;
+  height:500px;
+  color: #fff; 
+  background-color: #f1c40f;
+}
+#about {
+  padding-top:50px;
+  height:500px;
+  color: #000; 
+  background-color: #f4f4f4;
+}
+#contact {
+  padding-top:50px;
+  height:500px;
+  color: #fff; 
+  background-color: #009688;
+}
+.wow{
+  text-align: center;
+}
+
+.image-panel img{
+    width: 100%;
+    border-radius:20px;
+    padding: 5px;
+}
+
+.navbar {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ebebeb;
+    background-color: #485563;
+    border-bottom: 3px solid #3498db;
+}
